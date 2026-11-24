@@ -1,4 +1,4 @@
-package com.example.mds_app
+package com.example.gamingthoughts
 
 import android.os.Bundle
 import androidx.activity.compose.setContent
