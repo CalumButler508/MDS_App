@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Smaointe Cluiche</string>
+    <string name="add_thought">Cuir smaoineamh leis</string>
+    <string name="edit_thought">Cuir smaoineamh in eagar</string>
+    <string name="title">Teideal an chluiche</string>
+    <string name="title_required">Tá teideal riachtanach</string>
+    <string name="thoughts">Do chuid smaointe</string>
+    <string name="status">Stádas</string>
+    <string name="status_all">Uile</string>
+    <string name="status_playing">Ag imirt</string>
+    <string name="status_completed">Críochnaithe</string>
+    <string name="status_dropped">Tréigthe</string>
+    <string name="status_wishlist">Liosta mianta</string>
+    <string name="rating_value">Rátáil: %1$d/5</string>
+    <string name="released">Eisithe: %1$d</string>
+    <string name="added_on">Curtha leis: %1$s</string>
+    <string name="cover_art">Clúdach do %1$s</string>
+    <string name="search">Cuardaigh do chluichí</string>
+    <string name="search_online">Cuardaigh an cluiche ar líne</string>
+    <string name="lookup_failed">Níor aimsíodh an cluiche nó níl nasc ann</string>
+    <string name="empty_state">Níl aon iontráil ann fós. Tapáil + chun ceann a chur leis.</string>
+    <string name="save">Sábháil</string>
+    <string name="edit">Cuir in eagar</string>
+    <string name="delete">Scrios</string>
+    <string name="cancel">Cealaigh</string>
+    <string name="back">Ar ais</string>
+    <string name="undo">Cealaigh</string>
+    <string name="deleted">Iontráil scriosta</string>
+    <string name="delete_confirm_title">Scrios an iontráil?</string>
+    <string name="delete_confirm_body">Bainfear \"%1$s\" go buan.</string>
+    <string name="unlock">Díghlasáil</string>
+    <string name="unlock_title">Díghlasáil Smaointe Cluiche</string>
+</resources>

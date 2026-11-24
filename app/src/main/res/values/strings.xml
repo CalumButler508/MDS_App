@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Gaming Thoughts</string>
+    <string name="add_thought">Add thought</string>
+    <string name="edit_thought">Edit thought</string>
+    <string name="title">Game title</string>
+    <string name="title_required">Title is required</string>
+    <string name="thoughts">Your thoughts</string>
+    <string name="status">Status</string>
+    <string name="status_all">All</string>
+    <string name="status_playing">Playing</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_dropped">Dropped</string>
+    <string name="status_wishlist">Wishlist</string>
+    <string name="rating_value">Rating: %1$d/5</string>
+    <string name="released">Released: %1$d</string>
+    <string name="added_on">Added: %1$s</string>
+    <string name="cover_art">Cover art for %1$s</string>
+    <string name="search">Search your games</string>
+    <string name="search_online">Look up game online</string>
+    <string name="lookup_failed">Game not found or no connection</string>
+    <string name="empty_state">No entries yet. Tap + to add one.</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="undo">Undo</string>
+    <string name="deleted">Entry deleted</string>
+    <string name="delete_confirm_title">Delete entry?</string>
+    <string name="delete_confirm_body">\"%1$s\" will be removed permanently.</string>
+    <string name="unlock">Unlock</string>
+    <string name="unlock_title">Unlock Gaming Thoughts</string>
+</resources>
