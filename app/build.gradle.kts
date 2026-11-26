@@ -32,7 +32,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        val rawgApiKey = project.findProperty("RAWG_API_KEY") as? String ?: ""
+        val rawgApiKey = (project.findProperty("RAWG_API_KEY") as? String ?: "").replace("\"", "").trim()
         buildConfigField("String", "RAWG_API_KEY", "\"$rawgApiKey\"")
     }
 

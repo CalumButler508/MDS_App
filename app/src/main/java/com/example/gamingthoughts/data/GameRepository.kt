@@ -18,6 +18,7 @@ class GameRepository(
     suspend fun lookup(title: String): RawgGame? = try {
         api.search(title, apiKey = BuildConfig.RAWG_API_KEY).results.firstOrNull()
     } catch (e: Exception) {
+        android.util.Log.e("GameRepository", "RAWG lookup failed for '$title'", e)
         null
     }
 }

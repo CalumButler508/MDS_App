@@ -1,5 +1,6 @@
 package com.example.gamingthoughts.data
 
+import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
@@ -23,8 +24,18 @@ interface GameApiService {
 
     companion object {
         val instance: GameApiService by lazy {
+            val client = OkHttpClient.Builder()
+                .addInterceptor { chain ->
+                    val request = chain.request().newBuilder()
+                        .header("User-Agent", "GamingThoughtsApp/1.0")
+                        .build()
+                    chain.proceed(request)
+                }
+                .build()
+
             Retrofit.Builder()
                 .baseUrl("https://api.rawg.io/api/")
+                .client(client)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(GameApiService::class.java)
